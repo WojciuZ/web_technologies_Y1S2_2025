@@ -1,0 +1,15 @@
+Universal selector
+* {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  /* p,
+  ol,
+  ul {
+    color: blue;
+  } */
+body{
+    background-color: #FCDDF2;
+}
