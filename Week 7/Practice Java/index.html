@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JS Practice</title>
+</head>
+<body>
+    <!-- Where to attach JS? -->
+     <!-- in the body: -->
+        <!-- internal <Script> tag -->
+        <!-- external file -->
+    <!-- in the head:  "script src = 'script.js' defer script -->
+    <h1>Welcome to JS Practice!</h1>
+    <button id="btnExample">Click Me</but>
+        <div>id="example">Welcome!</div>
+    
+    <p id="message">My world of documentation</p>
+
+        <!-- <script src = "script.js"> -->
+        <script>
+            let msg=document.getElementById("message")
+            msg.innerHTML="Hello, Javescript";
+
+        </script>
+        <!-- 2.Multiple -->
+<div class="card"> First Card</div>
+<div class="card"> Second Card</div>
+
+<script>
+let firstCard = document.querySelector(".card")
+firstCard.style.border="2px solid red"
+
+document.getElementById("btnExample").addEventListener("Click", () =>{
+    alert ("Hello I am there")
+})
+
+</script>
+
+</body>
+</html>

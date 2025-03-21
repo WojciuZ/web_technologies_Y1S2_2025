@@ -1,0 +1,5 @@
+/* Universal selector - '*' */
+*{
+    background-color: darkcyan;
+    color: blue;
+}
